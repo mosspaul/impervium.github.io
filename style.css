@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Montserrat-Light-Alt1';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(Montserrat-Light-Alt1.woff2);
+  }
+
+body {
+    color: whitesmoke;
+    height: 950px;
+    background: #4b6cb7;
+    background-image: linear-gradient(180deg, #4b6cb7 0%, #182848 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    font-family: 'Montserrat-Light-Alt1', sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: monospace;
+    color: lightgray;
+    text-align: center;
+}
